@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/leaflet/static/css/main.b5434f94.css",
+    "main.js": "/leaflet/static/js/main.aa35346a.js",
+    "index.html": "/leaflet/index.html",
+    "main.b5434f94.css.map": "/leaflet/static/css/main.b5434f94.css.map",
+    "main.aa35346a.js.map": "/leaflet/static/js/main.aa35346a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5434f94.css",
+    "static/js/main.aa35346a.js"
+  ]
+}
