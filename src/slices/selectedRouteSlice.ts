@@ -31,11 +31,11 @@ const selectedRouteSlice = createSlice({
   name: 'selectedRoute',
   initialState,
   reducers: {
-    setRoute(state,action){
+    setRoute(state,action: PayloadAction<IRouteFromApi>){
+      console.log(action.payload)
       return action.payload
     },
     getRoute(state,action){
-
     }
   },
 });
