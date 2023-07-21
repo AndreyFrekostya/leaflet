@@ -1,5 +1,5 @@
 import { LatLngTuple } from 'leaflet'
-import React,{FC, useEffect} from 'react'
+import React,{FC} from 'react'
 import { Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
 import iconMarker from "leaflet/dist/images/marker-icon.png";

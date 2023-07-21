@@ -1,4 +1,4 @@
-import { Alert, Space } from 'antd'
+import { Alert } from 'antd'
 import React,{FC} from 'react'
 interface IError{
     message:string

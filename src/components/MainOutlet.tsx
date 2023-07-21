@@ -1,5 +1,5 @@
 import { Col, Row } from 'antd'
-import React,{useEffect} from 'react'
+import React from 'react'
 import Table from './Table'
 import MapWrap from './MapWrap'
 import { useAppSelector } from '../hooks/ToolkitHooks'

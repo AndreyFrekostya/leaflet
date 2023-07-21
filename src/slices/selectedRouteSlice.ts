@@ -1,5 +1,4 @@
-import { createAction, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { DataType } from '../constants/ROUTES';
+import {createSlice, PayloadAction } from '@reduxjs/toolkit';
 interface IWayPoints{
   hint:string,
   distance:number,
