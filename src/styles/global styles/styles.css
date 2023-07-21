@@ -1,0 +1,25 @@
+@import '.../../../reset/reset.css';
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+body {
+  background-color: #f1f1f1;
+  font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f9f9fd;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #7e7e7e;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}/*# sourceMappingURL=styles.css.map */
