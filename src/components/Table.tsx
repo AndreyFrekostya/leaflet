@@ -1,9 +1,9 @@
 import React from 'react'
-import {  DataType, columns, dataSource } from '../../constants/ROUTES'
+import {  DataType, columns, dataSource } from '../constants/ROUTES'
 import { Table as TableData } from 'antd';
-import { useAppDispatch } from '../../hooks/ToolkitHooks';
-import { getRoute } from '../../slices/selectedRouteSlice';
-import { changeRouteInTable } from '../../slices/selectedRouteInTableSlice';
+import { useAppDispatch } from '../hooks/ToolkitHooks';
+import { getRoute } from '../slices/selectedRouteSlice';
+import { changeRouteInTable } from '../slices/selectedRouteInTableSlice';
 const Table = () => {
     const dispatch=useAppDispatch()
     const rowSelection = {

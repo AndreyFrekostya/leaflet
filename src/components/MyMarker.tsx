@@ -12,14 +12,15 @@ L.Icon.Default.mergeOptions({
   shadowUrl: iconShadow,
 });
 interface IMyMarker{
-    coords:LatLngTuple
+    coords:LatLngTuple,
+    dot:number
 }
-const MyMarker:FC<IMyMarker> = ({coords}) => {
+const MyMarker:FC<IMyMarker> = ({coords,dot}) => {
   return (
     <>
       <Marker position={coords}>
       <Popup>
-        {coords[0]},<br/>{coords[1]}
+        {coords[0]},<br/>{coords[1]},<br/> Точка {dot}
       </Popup>
     </Marker>
     </>

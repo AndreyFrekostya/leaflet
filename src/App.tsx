@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/global styles/styles.css';
-import Header from './components/Header/Header';
-import MainOutlet from './components/MainOutlet/MainOutlet';
+import Header from './components/Header';
+import MainOutlet from './components/MainOutlet';
 
 function App() {
   return (

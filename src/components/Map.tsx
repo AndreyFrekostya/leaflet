@@ -3,10 +3,10 @@ import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { decode } from '@mapbox/polyline';
 import { LatLngTuple } from 'leaflet';
-import { useAppSelector } from '../../hooks/ToolkitHooks';
-import MyPolyline from '../Polyline/MyPolyline';
-import { pointMarkerTransform } from '../../helpers/pointMarkerTransform';
-import MarkersRoute from '../MarkersRoute';
+import { useAppSelector } from '../hooks/ToolkitHooks';
+import MyPolyline from './MyPolyline';
+import { pointMarkerTransform } from '../helpers/pointMarkerTransform';
+import MarkersRoute from './MarkersRoute';
 interface IMap{
   cardElement: RefObject<HTMLDivElement>;
 }

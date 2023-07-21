@@ -8,7 +8,7 @@ const MarkersRoute:FC<IMarkersRoute> = ({markersCoords}) => {
   return (
     <>
       {markersCoords.map((coord,index)=>(
-        <MyMarker key={index} coords={coord}/>
+        <MyMarker key={index} coords={coord} dot={index+1}/>
       ))}
     </>
   )
