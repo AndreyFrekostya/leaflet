@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/leaflet/static/css/main.b5434f94.css",
-    "main.js": "/leaflet/static/js/main.0ea78413.js",
+    "main.js": "/leaflet/static/js/main.e72c1195.js",
     "index.html": "/leaflet/index.html",
     "main.b5434f94.css.map": "/leaflet/static/css/main.b5434f94.css.map",
-    "main.0ea78413.js.map": "/leaflet/static/js/main.0ea78413.js.map"
+    "main.e72c1195.js.map": "/leaflet/static/js/main.e72c1195.js.map"
   },
   "entrypoints": [
     "static/css/main.b5434f94.css",
-    "static/js/main.0ea78413.js"
+    "static/js/main.e72c1195.js"
   ]
 }
